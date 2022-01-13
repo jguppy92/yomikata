@@ -1,1 +1,17 @@
 @import "~bulma/bulma.sass";
+
+.kanji-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.kanji-card {
+  display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  padding: 10px 10px;
+}
