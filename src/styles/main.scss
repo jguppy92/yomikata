@@ -2,16 +2,17 @@
 
 .kanji-card-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  div {
+    display: flex;
+  padding: 10px 10px;
+  margin: 2px 2px;
+  font-size: 50px;
   border: 1px;
   border-color: black;
   border-style: solid;
-}
-
-.kanji-card {
-  display: flex;
-  // flex-direction: row;
-  // flex-wrap: wrap;
-  padding: 10px 10px;
+  }
 }

@@ -18,7 +18,7 @@ function Joyo() {
   console.log(joyoKanji)
 
   return (
-    <div className="column is-full kanji-card-container">
+    <div className="columns is-half kanji-card-container">
       {joyoKanji.map(kanji => (
         <div key={kanji} className="kanji-card">
           <h1>{kanji}</h1>
