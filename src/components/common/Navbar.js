@@ -9,11 +9,11 @@ function Navbar() {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item">
-              🏠
+              読
             </Link>
-            <p className="navbar-item">
-              🍽 Categories
-            </p>
+            <Link to="joyo" className="navbar-item">
+              Jōyō Kanji
+            </Link>
           </div>
         </div>
       </nav>

@@ -6,6 +6,7 @@ import {
 
 import Home from './components/common/Home'
 import Navbar from './components/common/Navbar'
+import Joyo from './components/kanji/Joyo'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path='joyo' element={<Joyo/>} />
       </Routes>
     </BrowserRouter>
   )
